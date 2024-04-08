@@ -27,7 +27,7 @@ func TestStart(t *testing.T) {
 		expectedErr      string
 	}{
 		{
-			name:        "Missing Chaincode ID",
+			name:        "mycc",
 			expectedErr: "'CORE_CHAINCODE_ID_NAME' must be set",
 		},
 		{
